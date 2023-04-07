@@ -23,6 +23,7 @@ $(init = () => {
     //only iterates through the numbers 9 - 17, which is 9AM - 5PM.
 
     //gets elements by their hour ID.
+    let element = document.getElementById("hour-" + i)
     console.log(element);
 
 
@@ -38,7 +39,10 @@ $(init = () => {
     }
   }
 
-
+//find the id that matches that hour
+//Go through the array of divs, we'll likely need to extract the hour from the hourID. Compare it to the current hour. If it's less then the current hour, alter the class to be "row time-block past."
+//If it's equal to the current hour, make the class "row time-block present".
+//If it's later to the current hour, make the class "row time-block future".
 
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
