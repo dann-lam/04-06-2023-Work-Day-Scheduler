@@ -35,7 +35,7 @@ Simply type your "ToDo" into the list, and click on the button. This will save y
 Grey is past, red is current, and green is todos in the future.
 
 
-![Image of Application](https://raw.githubusercontent.com/dann-lam/04-06-2023-mod-05-chall//main/assets/screenshots/screenshot.png)
+![Image of Application](https://raw.githubusercontent.com/dann-lam/04-06-2023-mod-05-chall/main/assets/screenshot.png)
 
 
 ## Learning Points
