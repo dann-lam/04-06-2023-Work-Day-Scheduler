@@ -1,99 +1,50 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Your Task
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Technology Used
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+| Technology Used         | Resource URL           |
+| ------------- |:-------------:|
+| HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) |
+| CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |
+| Git | [https://git-scm.com/](https://git-scm.com/)     |
+| JS  | [https://www.javascript.com/](https://www.javascript.com/)     |
+| JQuery | [https://jquery.com/](https://jquery.com/)     |
+| DayJS | [https://day.js.org/](hhttps://day.js.org/)     |
 
-## User Story
+## Description
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+[Visit the Deployed Site](https://dann-lam.github.io/04-06-2023-mod-05-chall/)
 
-## Acceptance Criteria
+This is a site that features coloring of the current hour, it also saves text in the input field for storage.
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+This exercise utilizes the fundamentals on DayJS works, how DOM traversal works, local storage, and logic on handling objects utilizing all three, also some jQuery.
+It's also a fantastic tool for scheduling what needs to be done, a color reminder of what is coming up, and what is due.
 
-The following animation demonstrates the application functionality:
+## Table of Contents (Optional)
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
-## Grading Requirements
+* [Usage](#usage)
+* [Learning Points](#learning-points)
+* [License](#license)
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
 
-This Challenge is graded based on the following criteria:
+## Usage
 
-### Technical Acceptance Criteria: 40%
+Simply type your "ToDo" into the list, and click on the button. This will save your text into local storage. When you refresh, it should still be there!
+Grey is past, red is current, and green is todos in the future.
 
-* Satisfies all of the above acceptance criteria plus the following:
 
-  * Uses a date utility library to work with date and time
+![Image of Application](https://raw.githubusercontent.com/dann-lam/04-06-2023-mod-05-chall//main/assets/screenshots/screenshot.png)
 
-### Deployment: 32%
 
-* Application deployed at live URL
+## Learning Points
 
-* Application loads with no errors
+The hardest part was traversing the DOM, as some of the aspects of traversing it is slightly obscured, but was great for reading documentation. In the future, i'd like to practice utilizing Jquery some more.
+For some reason, the DayJS timer pops up quite late upon spawning the page.
 
-* Application GitHub URL submitted
 
-* GitHub repo contains application code
+## License
 
-### Application Quality: 15%
+MIT License
 
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
