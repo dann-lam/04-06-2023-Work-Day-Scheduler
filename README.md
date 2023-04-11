@@ -14,7 +14,7 @@
 
 ## Description
 
-[Visit the Deployed Site](https://dann-lam.github.io/04-06-2023-mod-05-chall/)
+[Visit the Deployed Site](https://dann-lam.github.io/04-06-2023-Work-Day-Scheduler/)
 
 This is a site that features coloring of the current hour, it also saves text in the input field for storage.
 
